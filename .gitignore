@@ -1,0 +1,41 @@
+# Java
+*.class
+
+# Maven
+target/
+
+# Gradle
+build/
+.gradle/
+
+# STS / Eclipse
+.metadata/
+.sts4-cache/
+.settings/
+.classpath
+.project
+
+# Eclipse generated
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+spring-boot-starter-*.jar
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
