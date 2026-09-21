@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: 04-SpringBootConfigPropsEx2
+my:
+  app:
+    id: 11
+    code: MODEL
+    active: true
+    ldata:
+    - A
+    - B
+    - C
+    sdata: X,Y,Z
+    adata: i,j,k
+    mdata:
+      A1: B1
+      A2: B2
+    pdata:
+      C1: D1
+      C2: D2
+    pob:
+      pid: 98
+      pcode: ABC
