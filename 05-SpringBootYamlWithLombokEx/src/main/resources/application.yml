@@ -1,0 +1,20 @@
+spring:
+    application:
+        name: 05-SpringBootYamlEx1
+my:
+    app:
+        certificate:
+          provider: GoDaddy
+          expExist: INACTIVE
+        host: smtp.gmail.com
+        port: 885
+        username: admin
+        password: Abc1234
+        protocols:
+            - SMTP
+            - SMTPS
+            - SMTP2
+        headers:
+            modified: true
+            version: 3.2A
+            content: JSON
