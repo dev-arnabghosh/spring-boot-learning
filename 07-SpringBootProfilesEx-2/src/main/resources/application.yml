@@ -1,0 +1,43 @@
+# ALL in ONE YAML FILE
+spring:
+    application:
+        name: 07-SpringBootProfilesEx-01
+my:
+    db:
+        driver: Oracle
+        url: jdbc-oracle
+        user: arnab
+        pwd: Abc1234
+---
+spring:
+    config:
+        activate:
+            on-profile: qa
+
+my:
+    db:
+        driver: MySQL
+        url: jdbc-mysql
+        user: qa-arnab
+        pwd: qa-Abc1234
+---
+spring:
+    config:
+        activate:
+            on-profile: prod
+
+my:
+    db:
+        driver: PostGress
+        url: jdbc-postfress
+---
+spring:
+    config:
+        activate:
+            on-profile: 
+              - uat
+              - prodsp
+my:
+    db:
+        driver: MongoDB
+        url: jdbc-mongodb

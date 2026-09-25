@@ -1,0 +1,8 @@
+# Conversion to YAML from Properties formar report
+spring:
+  application:
+    name: 07-SpringBootProfilesEx-01
+my:
+  db:
+    driver: PostGress
+    url: jdbc-postfress

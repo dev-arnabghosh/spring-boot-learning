@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 07-SpringBootProfilesEx-01
+my:
+  db:
+    driver: Oracle
+    url: jdbc-oracle
+    user: arnab
+    pwd: Abc1234
